@@ -1,0 +1,7 @@
+version: "3"
+services:
+  plauener_farbfenster:
+    build: ./
+    image: application/plauener_farbfenster:latest
+    container_name: plauener_farbfenster
+    restart: unless-stopped

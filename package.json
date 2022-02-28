@@ -1,0 +1,11 @@
+{
+    "name": "plauener_farbfenster",
+    "version": "1.0.0",
+    "scripts": {
+        "build-docker": "docker build --tag=application/plauener_farbfenster ."
+    },
+    "devDependencies": {
+        "@types/node": "^12.12.17"
+    },
+    "license": "UNLICENSED"
+}
